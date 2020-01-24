@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<head>
+    <title> Exercício 01 </title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <script>
+        /*2. Crie um programa que armazene os valores 15 e 60, 
+        de forma que eles representem duas idades.*/
+        var idade1 = 15;
+        var idade2 = 60;
+
+
+        /*3. Faça um algoritmo que pegue as duas idades do exercício 
+        anterior e calcule a média aritmética entre os dois.*/
+        var media = (idade1 + idade2) / 2;
+
+        console.log(idade1, idade2, media);
+
+
+        /*4. Faça um algoritmo que leia um valor expresso em horas 
+        e imprima o mesmo valor expresso em minutos.*/
+        var hora = 3;
+        var minutos = hora * 60;
+        document.write(minutos);
+        document.write("<br>" + "<br>");
+
+
+        /*5. Faça um algoritmo que leia os seguintes dados de um usuário: Nome, Idade, 
+        CPF e Sexo. Em seguida, imprima todos os dados que foram digitados.*/
+        var nome = prompt("Informe o nome:");
+        var idade = prompt("Informe a idade:");
+        var cpf = prompt("Informe o CPF:");
+        var sexo = prompt("Informe o sexo:");
+
+        document.write("NOME: " + nome + "<br>");
+        document.write("IDADE: " + idade + "<br>");
+        document.write("CPF: " + cpf + "<br>");
+        document.write("SEXO: " + sexo);
+        document.write("<br>" + "<br>");
+
+
+        /*6. Sabendo que o valor de 1 DOLAR está em 4.13 REAIS, faça um 
+        algoritmo que leia os valores em DOLAR e imprima o seu valor em REAIS.*/
+        var dolar = prompt("Qual o valor em DOLAR?");
+        var reais = dolar * 4.13;
+        document.write("VALOR EM REAIS: " + reais);
+        document.write("<br>" + "<br>");
+
+
+        /*7. Você foi contratado para criar um sistema para uma padaria. Sabendo que o 
+        pão é vendido por Kg. Crie um algoritmo que receba o preço do kilo do pão e 
+        calcule o quanto o cliente vai pagar de acordo com o peso que ele pediu no 
+        balcão (esse funcionamento é muito similar ao de uma balança).*/
+        var peso = prompt("Qual o peso em Kg?");
+        var valor = peso * 2;
+        document.write("Preço do pão: " + valor);
+        document.write("<br>" + "<br>");
+
+    
+
+
+
+    
+    
+    
+    </script>
+</body>
